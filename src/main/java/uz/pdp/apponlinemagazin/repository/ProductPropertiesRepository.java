@@ -1,0 +1,8 @@
+package uz.pdp.apponlinemagazin.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import uz.pdp.apponlinemagazin.domain.ProductProperties;
+
+public interface ProductPropertiesRepository extends JpaRepository<ProductProperties, Integer> {
+
+}
